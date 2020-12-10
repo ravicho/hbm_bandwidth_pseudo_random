@@ -1,0 +1,1414 @@
+<ENTRY>
+{
+ "thisFile": "/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/krnl_vaddmul.link.xclbin.link_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "Wed Dec  9 21:01:15 2020",
+ "timestampMillis": "1607576475803",
+ "buildStep": {
+  "cmdId": "ba0c1ff0-ca99-407e-8edc-001d015ce231",
+  "name": "v++",
+  "logFile": "/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/link/link.steps.log",
+  "commandLine": "/proj/xbuilds/SWIP/2020.2_1118_1232/installs/lin64/Vitis/2020.2/bin/unwrapped/lnx64.o/v++  --xp \"vivado_prop:run.__KERNEL__.{STEPS.SYNTH_DESIGN.ARGS.MORE OPTIONS}={-directive sdx_optimization_effort_high}\" --xp \"misc:report=type report_timing_summary name impl_report_timing_summary_route_design_summary steps {route_design} runs {impl_1} options {-max_paths 10}\" --xp \"misc:report=type report_timing_summary name impl_report_timing_summary_post_route_phys_opt_design_summary steps {post_route_phys_opt_design} runs {impl_1} options {-max_paths 10}\" -l -t hw --platform xilinx_u50_gen3x16_xdma_201920_3 --save-temps --profile_kernel data:all:all:all --profile_kernel stall:all:all:all --temp_dir ./build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3 --config krnl_vaddmul.ini -o./build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/krnl_vaddmul.link.xclbin _x.hw.xilinx_u50_gen3x16_xdma_201920_3/krnl_vaddmul.xo ",
+  "args": [
+   "-l",
+   "-t",
+   "hw",
+   "--platform",
+   "xilinx_u50_gen3x16_xdma_201920_3",
+   "--save-temps",
+   "--profile_kernel",
+   "data:all:all:all",
+   "--profile_kernel",
+   "stall:all:all:all",
+   "--temp_dir",
+   "./build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3",
+   "--config",
+   "krnl_vaddmul.ini",
+   "-o./build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/krnl_vaddmul.link.xclbin",
+   "_x.hw.xilinx_u50_gen3x16_xdma_201920_3/krnl_vaddmul.xo"
+  ],
+  "iniFiles": [
+   {
+    "path": "/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/krnl_vaddmul.ini",
+    "content": "[connectivity]\nsp=krnl_vaddmul_1.in1:HBM[0]\nsp=krnl_vaddmul_1.in2:HBM[1]\nsp=krnl_vaddmul_1.out_add:HBM[2]\nsp=krnl_vaddmul_1.out_mul:HBM[3]\nsp=krnl_vaddmul_2.in1:HBM[4]\nsp=krnl_vaddmul_2.in2:HBM[5]\nsp=krnl_vaddmul_2.out_add:HBM[6]\nsp=krnl_vaddmul_2.out_mul:HBM[7]\nsp=krnl_vaddmul_3.in1:HBM[8]\nsp=krnl_vaddmul_3.in2:HBM[9]\nsp=krnl_vaddmul_3.out_add:HBM[10]\nsp=krnl_vaddmul_3.out_mul:HBM[11]\nnk=krnl_vaddmul:3\n"
+   }
+  ],
+  "cwd": "/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Wed Dec  9 21:01:15 2020",
+ "timestampMillis": "1607576475805",
+ "status": {
+  "cmdId": "ba0c1ff0-ca99-407e-8edc-001d015ce231",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "Wed Dec  9 21:01:21 2020",
+ "timestampMillis": "1607576481091",
+ "buildSummary": {
+  "hardwarePlatform": "xilinx_u50_gen3x16_xdma_201920_3.xpfm",
+  "hardwareDsa": "hw.xsa",
+  "platformDirectory": "/proj/xbuilds/2020.2_daily_latest/internal_platforms/xilinx_u50_gen3x16_xdma_201920_3",
+  "runtime": "OpenCL",
+  "systemConfig": "Linux",
+  "flow": "BF_LINK",
+  "target": "TT_HW",
+  "binaryContainer": {
+   "base": {
+    "type": "BT_UKNOWN",
+    "name": "krnl_vaddmul.link",
+    "file": "/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/krnl_vaddmul.link.xclbin",
+    "reports": [],
+    "uuid": ""
+   },
+   "kernels": []
+  },
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "krnl_vaddmul",
+     "file": "/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/_x.hw.xilinx_u50_gen3x16_xdma_201920_3/krnl_vaddmul.xo",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/link/int/xo/krnl_vaddmul/krnl_vaddmul/cpu_sources/krnl_vaddmul.cpp"
+    ],
+    "psSources": [],
+    "cuNames": [
+     "krnl_vaddmul_1",
+     "krnl_vaddmul_2",
+     "krnl_vaddmul_3"
+    ],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "Vitis V++ Compiler Release 2020.2. SW Build (by xbuild) on 2020-11-18-05:13:29"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Wed Dec  9 21:01:21 2020",
+ "timestampMillis": "1607576481279",
+ "buildStep": {
+  "cmdId": "58aff779-1c7a-48bd-b52b-3393a803d922",
+  "name": "system_link",
+  "logFile": "",
+  "commandLine": "system_link --xo /wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/_x.hw.xilinx_u50_gen3x16_xdma_201920_3/krnl_vaddmul.xo -keep --config /wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/link/int/syslinkConfig.ini --xpfm /proj/xbuilds/2020.2_daily_latest/internal_platforms/xilinx_u50_gen3x16_xdma_201920_3/xilinx_u50_gen3x16_xdma_201920_3.xpfm --target hw --output_dir /wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/link/int --temp_dir /wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/link/sys_link",
+  "args": [
+   "--xo",
+   "/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/_x.hw.xilinx_u50_gen3x16_xdma_201920_3/krnl_vaddmul.xo",
+   "-keep",
+   "--config",
+   "/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/link/int/syslinkConfig.ini",
+   "--xpfm",
+   "/proj/xbuilds/2020.2_daily_latest/internal_platforms/xilinx_u50_gen3x16_xdma_201920_3/xilinx_u50_gen3x16_xdma_201920_3.xpfm",
+   "--target",
+   "hw",
+   "--output_dir",
+   "/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/link/int",
+   "--temp_dir",
+   "/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/link/sys_link"
+  ],
+  "iniFiles": [
+   {
+    "path": "/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/link/int/syslinkConfig.ini",
+    "content": "nk=krnl_vaddmul:3\nsp=krnl_vaddmul_1.in1:HBM[0]\nsp=krnl_vaddmul_1.in2:HBM[1]\nsp=krnl_vaddmul_1.out_add:HBM[2]\nsp=krnl_vaddmul_1.out_mul:HBM[3]\nsp=krnl_vaddmul_2.in1:HBM[4]\nsp=krnl_vaddmul_2.in2:HBM[5]\nsp=krnl_vaddmul_2.out_add:HBM[6]\nsp=krnl_vaddmul_2.out_mul:HBM[7]\nsp=krnl_vaddmul_3.in1:HBM[8]\nsp=krnl_vaddmul_3.in2:HBM[9]\nsp=krnl_vaddmul_3.out_add:HBM[10]\nsp=krnl_vaddmul_3.out_mul:HBM[11]\n\n"
+   }
+  ],
+  "cwd": "/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Wed Dec  9 21:01:21 2020",
+ "timestampMillis": "1607576481280",
+ "status": {
+  "cmdId": "58aff779-1c7a-48bd-b52b-3393a803d922",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Wed Dec  9 21:01:36 2020",
+ "timestampMillis": "1607576496665",
+ "status": {
+  "cmdId": "58aff779-1c7a-48bd-b52b-3393a803d922",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Wed Dec  9 21:01:36 2020",
+ "timestampMillis": "1607576496674",
+ "buildStep": {
+  "cmdId": "f20aed58-58b9-418c-9e2b-01474fa37a36",
+  "name": "cf2sw",
+  "logFile": "",
+  "commandLine": "cf2sw -sdsl /wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/link/int/sdsl.dat -rtd /wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/link/int/cf2sw.rtd -nofilter /wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/link/int/cf2sw_full.rtd -xclbin /wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/link/int/xclbin_orig.xml -o /wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/link/int/xclbin_orig.1.xml",
+  "args": [
+   "-sdsl",
+   "/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/link/int/sdsl.dat",
+   "-rtd",
+   "/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/link/int/cf2sw.rtd",
+   "-nofilter",
+   "/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/link/int/cf2sw_full.rtd",
+   "-xclbin",
+   "/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/link/int/xclbin_orig.xml",
+   "-o",
+   "/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/link/int/xclbin_orig.1.xml"
+  ],
+  "iniFiles": [],
+  "cwd": "/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Wed Dec  9 21:01:36 2020",
+ "timestampMillis": "1607576496675",
+ "status": {
+  "cmdId": "f20aed58-58b9-418c-9e2b-01474fa37a36",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Wed Dec  9 21:01:40 2020",
+ "timestampMillis": "1607576500413",
+ "status": {
+  "cmdId": "f20aed58-58b9-418c-9e2b-01474fa37a36",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Wed Dec  9 21:01:40 2020",
+ "timestampMillis": "1607576500420",
+ "buildStep": {
+  "cmdId": "beef9d21-4454-44fd-b990-af97c2791fe2",
+  "name": "rtd2_system_diagram",
+  "logFile": "",
+  "commandLine": "rtd2SystemDiagram",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Wed Dec  9 21:01:40 2020",
+ "timestampMillis": "1607576500421",
+ "status": {
+  "cmdId": "beef9d21-4454-44fd-b990-af97c2791fe2",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Wed Dec  9 21:01:41 2020",
+ "timestampMillis": "1607576501842",
+ "report": {
+  "path": "/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/link/int/systemDiagramModel.json",
+  "name": "",
+  "fileType": "JSON",
+  "reportType": "SYSTEM_DIAGRAM"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Wed Dec  9 21:01:41 2020",
+ "timestampMillis": "1607576501845",
+ "status": {
+  "cmdId": "beef9d21-4454-44fd-b990-af97c2791fe2",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Wed Dec  9 21:01:41 2020",
+ "timestampMillis": "1607576501859",
+ "buildStep": {
+  "cmdId": "954291d7-3d5f-4e02-8d0e-753facca5aa8",
+  "name": "vpl",
+  "logFile": "",
+  "commandLine": "vpl -t hw -f xilinx_u50_gen3x16_xdma_201920_3 --remote_ip_cache /wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/.ipcache -s --profile_kernel data:all:all:all --profile_kernel stall:all:all:all --output_dir /wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/link/int --log_dir /wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/logs/link --report_dir /wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/reports/link --config /wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/link/int/vplConfig.ini -k /wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/link/int/kernel_info.dat --webtalk_flag Vitis --temp_dir /wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/link --no-info --iprepo /wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/link/int/xo/ip_repo/xilinx_com_hls_krnl_vaddmul_1_0 --messageDb /wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/link/run_link/vpl.pb /wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/link/int/dr.bd.tcl",
+  "args": [
+   "-t",
+   "hw",
+   "-f",
+   "xilinx_u50_gen3x16_xdma_201920_3",
+   "--remote_ip_cache",
+   "/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/.ipcache",
+   "-s",
+   "--profile_kernel",
+   "data:all:all:all",
+   "--profile_kernel",
+   "stall:all:all:all",
+   "--output_dir",
+   "/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/link/int",
+   "--log_dir",
+   "/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/logs/link",
+   "--report_dir",
+   "/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/reports/link",
+   "--config",
+   "/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/link/int/vplConfig.ini",
+   "-k",
+   "/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/link/int/kernel_info.dat",
+   "--webtalk_flag",
+   "Vitis",
+   "--temp_dir",
+   "/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/link",
+   "--no-info",
+   "--iprepo",
+   "/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/link/int/xo/ip_repo/xilinx_com_hls_krnl_vaddmul_1_0",
+   "--messageDb",
+   "/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/link/run_link/vpl.pb",
+   "/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/link/int/dr.bd.tcl"
+  ],
+  "iniFiles": [
+   {
+    "path": "/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/link/int/vplConfig.ini",
+    "content": "[advanced]\nmisc=report=type report_timing_summary name impl_report_timing_summary_route_design_summary steps {route_design} runs {impl_1} options {-max_paths 10}\nmisc=report=type report_timing_summary name impl_report_timing_summary_post_route_phys_opt_design_summary steps {post_route_phys_opt_design} runs {impl_1} options {-max_paths 10}\nparam=compiler.enablePerformanceTrace=1\nparam=compiler.vppCurrentWorkingDir=/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random\nmisc=BinaryName=krnl_vaddmul.link\n\n[connectivity]\nnk=krnl_vaddmul:3:krnl_vaddmul_1.krnl_vaddmul_2.krnl_vaddmul_3\n\n[vivado]\nprop=run.__KERNEL__.{STEPS.SYNTH_DESIGN.ARGS.MORE OPTIONS}={-directive sdx_optimization_effort_high}\n\n"
+   }
+  ],
+  "cwd": "/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Wed Dec  9 21:01:41 2020",
+ "timestampMillis": "1607576501860",
+ "status": {
+  "cmdId": "954291d7-3d5f-4e02-8d0e-753facca5aa8",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "Wed Dec  9 21:01:43 2020",
+ "timestampMillis": "1607576503714",
+ "buildStep": {
+  "cmdId": "9012cd41-71df-41da-bde0-1d03a8209bf7",
+  "name": "vpl",
+  "logFile": "/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/link/link.steps.log",
+  "commandLine": "/proj/xbuilds/SWIP/2020.2_1118_1232/installs/lin64/Vitis/2020.2/bin/unwrapped/lnx64.o/vpl -t hw -f xilinx_u50_gen3x16_xdma_201920_3 --remote_ip_cache /wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/.ipcache -s --profile_kernel data:all:all:all --profile_kernel stall:all:all:all --output_dir /wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/link/int --log_dir /wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/logs/link --report_dir /wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/reports/link --config /wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/link/int/vplConfig.ini -k /wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/link/int/kernel_info.dat --webtalk_flag Vitis --temp_dir /wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/link --no-info --iprepo /wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/link/int/xo/ip_repo/xilinx_com_hls_krnl_vaddmul_1_0 --messageDb /wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/link/run_link/vpl.pb /wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/link/int/dr.bd.tcl ",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/link/run_link"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Wed Dec  9 21:01:43 2020",
+ "timestampMillis": "1607576503714",
+ "status": {
+  "cmdId": "9012cd41-71df-41da-bde0-1d03a8209bf7",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_VivadoProject",
+ "dateTimestamp": "Wed Dec  9 21:01:47 2020",
+ "timestampMillis": "1607576507639",
+ "vivadoProject": {
+  "openDir": "/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl",
+  "openScript": "openprj.tcl",
+  "relativeProject": "prj/prj.xpr"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Wed Dec  9 21:01:47 2020",
+ "timestampMillis": "1607576507644",
+ "buildStep": {
+  "cmdId": "c294891f-dfd7-4a1d-8bb0-cc4115a1b8b4",
+  "name": "vivado",
+  "logFile": "/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/vivado.log",
+  "commandLine": "vivado -log vivado.log -applog -m64 -messageDb vivado.pb -mode batch -source vpl.tcl -notrace",
+  "args": [
+   "-log",
+   "vivado.log",
+   "-applog",
+   " -m64",
+   "-messageDb",
+   "vivado.pb",
+   "-mode",
+   "batch",
+   "-source",
+   "vpl.tcl",
+   "-notrace"
+  ],
+  "iniFiles": [],
+  "cwd": "/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/link/run_link"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Wed Dec  9 21:01:47 2020",
+ "timestampMillis": "1607576507645",
+ "status": {
+  "cmdId": "c294891f-dfd7-4a1d-8bb0-cc4115a1b8b4",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Wed Dec  9 21:05:54 2020",
+ "timestampMillis": "1607576754521",
+ "report": {
+  "path": "/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/link/int/debug_ip_layout.rtd",
+  "name": "",
+  "fileType": "JSON",
+  "reportType": "DEBUG_IP_LAYOUT"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Wed Dec  9 23:29:09 2020",
+ "timestampMillis": "1607585349486",
+ "status": {
+  "cmdId": "c294891f-dfd7-4a1d-8bb0-cc4115a1b8b4",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Wed Dec  9 23:29:10 2020",
+ "timestampMillis": "1607585350065",
+ "report": {
+  "path": "/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/reports/link/imp/impl_1_kernel_util_synthed.xutil",
+  "name": "",
+  "fileType": "XUTIL",
+  "reportType": "KERNEL_UTILIZATION_SYNTHESIS"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Wed Dec  9 23:29:10 2020",
+ "timestampMillis": "1607585350068",
+ "report": {
+  "path": "/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/reports/link/imp/impl_1_kernel_util_synthed.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "KERNEL_UTILIZATION_SYNTHESIS"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Wed Dec  9 23:29:10 2020",
+ "timestampMillis": "1607585350071",
+ "report": {
+  "path": "/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/reports/link/imp/impl_1_full_util_synthed.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_UTILIZATION_SYNTHESIS"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Wed Dec  9 23:29:10 2020",
+ "timestampMillis": "1607585350074",
+ "report": {
+  "path": "/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/reports/link/imp/impl_1_full_util_synthed.pb",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_UTILIZATION_SYNTHESIS"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Wed Dec  9 23:29:10 2020",
+ "timestampMillis": "1607585350077",
+ "report": {
+  "path": "/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/reports/link/imp/impl_1_kernel_util_placed.xutil",
+  "name": "",
+  "fileType": "XUTIL",
+  "reportType": "KERNEL_UTILIZATION_PLACEMENT"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Wed Dec  9 23:29:10 2020",
+ "timestampMillis": "1607585350080",
+ "report": {
+  "path": "/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/reports/link/imp/impl_1_kernel_util_placed.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "KERNEL_UTILIZATION_PLACEMENT"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Wed Dec  9 23:29:10 2020",
+ "timestampMillis": "1607585350083",
+ "report": {
+  "path": "/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/reports/link/imp/impl_1_slr_util_placed.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_SLR_UTIL_PLACED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Wed Dec  9 23:29:10 2020",
+ "timestampMillis": "1607585350086",
+ "report": {
+  "path": "/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/reports/link/imp/impl_1_slr_util_placed.pb",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_SLR_UTIL_PLACED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Wed Dec  9 23:29:10 2020",
+ "timestampMillis": "1607585350104",
+ "report": {
+  "path": "/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/reports/link/imp/impl_1_kernel_util_routed.xutil",
+  "name": "",
+  "fileType": "XUTIL",
+  "reportType": "KERNEL_UTILIZATION_ROUTE"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Wed Dec  9 23:29:10 2020",
+ "timestampMillis": "1607585350113",
+ "report": {
+  "path": "/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/reports/link/imp/impl_1_kernel_util_routed.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "KERNEL_UTILIZATION_ROUTE"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Wed Dec  9 23:29:10 2020",
+ "timestampMillis": "1607585350121",
+ "report": {
+  "path": "/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/reports/link/imp/impl_1_slr_util_routed.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_SLR_UTIL_ROUTED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Wed Dec  9 23:29:10 2020",
+ "timestampMillis": "1607585350131",
+ "report": {
+  "path": "/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/reports/link/imp/impl_1_slr_util_routed.pb",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_SLR_UTIL_ROUTED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Wed Dec  9 23:29:10 2020",
+ "timestampMillis": "1607585350134",
+ "report": {
+  "path": "/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/reports/link/imp/impl_1_full_util_routed.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_UTILIZATION_ROUTE"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Wed Dec  9 23:29:10 2020",
+ "timestampMillis": "1607585350137",
+ "report": {
+  "path": "/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/reports/link/imp/impl_1_full_util_routed.pb",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_UTILIZATION_ROUTE"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Wed Dec  9 23:29:10 2020",
+ "timestampMillis": "1607585350156",
+ "report": {
+  "path": "/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/reports/link/syn/ulp_hmss_0_0_synth_1_ulp_hmss_0_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Wed Dec  9 23:29:10 2020",
+ "timestampMillis": "1607585350159",
+ "report": {
+  "path": "/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/reports/link/syn/ulp_xbar_2_synth_1_ulp_xbar_2_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Wed Dec  9 23:29:10 2020",
+ "timestampMillis": "1607585350163",
+ "report": {
+  "path": "/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/reports/link/syn/ulp_dpa_hub_0_synth_1_ulp_dpa_hub_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Wed Dec  9 23:29:10 2020",
+ "timestampMillis": "1607585350166",
+ "report": {
+  "path": "/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/reports/link/syn/ulp_dpa_mon1_0_synth_1_ulp_dpa_mon1_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Wed Dec  9 23:29:10 2020",
+ "timestampMillis": "1607585350169",
+ "report": {
+  "path": "/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/reports/link/syn/ulp_dpa_mon11_0_synth_1_ulp_dpa_mon11_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Wed Dec  9 23:29:10 2020",
+ "timestampMillis": "1607585350173",
+ "report": {
+  "path": "/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/reports/link/syn/ulp_dpa_mon12_0_synth_1_ulp_dpa_mon12_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Wed Dec  9 23:29:10 2020",
+ "timestampMillis": "1607585350177",
+ "report": {
+  "path": "/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/reports/link/syn/ulp_dpa_mon13_0_synth_1_ulp_dpa_mon13_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Wed Dec  9 23:29:10 2020",
+ "timestampMillis": "1607585350180",
+ "report": {
+  "path": "/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/reports/link/syn/ulp_dpa_mon14_0_synth_1_ulp_dpa_mon14_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Wed Dec  9 23:29:10 2020",
+ "timestampMillis": "1607585350183",
+ "report": {
+  "path": "/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/reports/link/syn/ulp_dpa_mon2_0_synth_1_ulp_dpa_mon2_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Wed Dec  9 23:29:10 2020",
+ "timestampMillis": "1607585350186",
+ "report": {
+  "path": "/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/reports/link/syn/ulp_dpa_mon3_0_synth_1_ulp_dpa_mon3_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Wed Dec  9 23:29:10 2020",
+ "timestampMillis": "1607585350189",
+ "report": {
+  "path": "/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/reports/link/syn/ulp_dpa_mon4_0_synth_1_ulp_dpa_mon4_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Wed Dec  9 23:29:10 2020",
+ "timestampMillis": "1607585350192",
+ "report": {
+  "path": "/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/reports/link/syn/ulp_dpa_mon6_0_synth_1_ulp_dpa_mon6_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Wed Dec  9 23:29:10 2020",
+ "timestampMillis": "1607585350195",
+ "report": {
+  "path": "/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/reports/link/syn/ulp_dpa_mon7_0_synth_1_ulp_dpa_mon7_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Wed Dec  9 23:29:10 2020",
+ "timestampMillis": "1607585350198",
+ "report": {
+  "path": "/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/reports/link/syn/ulp_dpa_mon8_0_synth_1_ulp_dpa_mon8_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Wed Dec  9 23:29:10 2020",
+ "timestampMillis": "1607585350201",
+ "report": {
+  "path": "/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/reports/link/syn/ulp_dpa_mon9_0_synth_1_ulp_dpa_mon9_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Wed Dec  9 23:29:10 2020",
+ "timestampMillis": "1607585350204",
+ "report": {
+  "path": "/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/reports/link/syn/bd_85ad_interconnect12_11_0_synth_1_bd_85ad_interconnect12_11_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Wed Dec  9 23:29:10 2020",
+ "timestampMillis": "1607585350208",
+ "report": {
+  "path": "/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/reports/link/syn/bd_85ad_interconnect11_10_0_synth_1_bd_85ad_interconnect11_10_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Wed Dec  9 23:29:10 2020",
+ "timestampMillis": "1607585350211",
+ "report": {
+  "path": "/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/reports/link/syn/bd_85ad_interconnect4_3_0_synth_1_bd_85ad_interconnect4_3_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Wed Dec  9 23:29:10 2020",
+ "timestampMillis": "1607585350214",
+ "report": {
+  "path": "/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/reports/link/syn/bd_85ad_interconnect5_4_0_synth_1_bd_85ad_interconnect5_4_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Wed Dec  9 23:29:10 2020",
+ "timestampMillis": "1607585350217",
+ "report": {
+  "path": "/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/reports/link/syn/bd_85ad_interconnect3_2_0_synth_1_bd_85ad_interconnect3_2_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Wed Dec  9 23:29:10 2020",
+ "timestampMillis": "1607585350220",
+ "report": {
+  "path": "/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/reports/link/syn/bd_85ad_interconnect1_0_0_synth_1_bd_85ad_interconnect1_0_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Wed Dec  9 23:29:10 2020",
+ "timestampMillis": "1607585350223",
+ "report": {
+  "path": "/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/reports/link/syn/bd_85ad_interconnect6_5_0_synth_1_bd_85ad_interconnect6_5_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Wed Dec  9 23:29:10 2020",
+ "timestampMillis": "1607585350226",
+ "report": {
+  "path": "/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/reports/link/syn/bd_85ad_interconnect7_6_0_synth_1_bd_85ad_interconnect7_6_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Wed Dec  9 23:29:10 2020",
+ "timestampMillis": "1607585350229",
+ "report": {
+  "path": "/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/reports/link/syn/bd_85ad_interconnect9_8_0_synth_1_bd_85ad_interconnect9_8_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Wed Dec  9 23:29:10 2020",
+ "timestampMillis": "1607585350232",
+ "report": {
+  "path": "/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/reports/link/syn/bd_85ad_interconnect10_9_0_synth_1_bd_85ad_interconnect10_9_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Wed Dec  9 23:29:10 2020",
+ "timestampMillis": "1607585350236",
+ "report": {
+  "path": "/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/reports/link/syn/bd_85ad_interconnect0_12_0_synth_1_bd_85ad_interconnect0_12_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Wed Dec  9 23:29:10 2020",
+ "timestampMillis": "1607585350239",
+ "report": {
+  "path": "/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/reports/link/syn/bd_85ad_interconnect8_7_0_synth_1_bd_85ad_interconnect8_7_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Wed Dec  9 23:29:10 2020",
+ "timestampMillis": "1607585350242",
+ "report": {
+  "path": "/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/reports/link/syn/bd_85ad_interconnect2_1_0_synth_1_bd_85ad_interconnect2_1_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Wed Dec  9 23:29:10 2020",
+ "timestampMillis": "1607585350245",
+ "report": {
+  "path": "/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/reports/link/syn/ulp_tier2_xbar_1_0_synth_1_ulp_tier2_xbar_1_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Wed Dec  9 23:29:10 2020",
+ "timestampMillis": "1607585350248",
+ "report": {
+  "path": "/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/reports/link/syn/ulp_tier2_xbar_2_0_synth_1_ulp_tier2_xbar_2_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Wed Dec  9 23:29:10 2020",
+ "timestampMillis": "1607585350333",
+ "report": {
+  "path": "/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/reports/link/imp/impl_1_hw_bb_locked_timing_summary_routed.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_TIMING_SUMMARY"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Wed Dec  9 23:29:10 2020",
+ "timestampMillis": "1607585350393",
+ "report": {
+  "path": "/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/reports/link/imp/impl_1_hw_bb_locked_timing_summary_routed.rpx",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_REPORT_TIMING_SUMMARY"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Wed Dec  9 23:29:10 2020",
+ "timestampMillis": "1607585350425",
+ "status": {
+  "cmdId": "9012cd41-71df-41da-bde0-1d03a8209bf7",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Wed Dec  9 23:29:10 2020",
+ "timestampMillis": "1607585350448",
+ "status": {
+  "cmdId": "954291d7-3d5f-4e02-8d0e-753facca5aa8",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Wed Dec  9 23:29:10 2020",
+ "timestampMillis": "1607585350457",
+ "buildStep": {
+  "cmdId": "0a8df818-3d3c-4d8d-8626-c5efe98e106f",
+  "name": "rtdgen",
+  "logFile": "",
+  "commandLine": "rtdgen",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Wed Dec  9 23:29:10 2020",
+ "timestampMillis": "1607585350457",
+ "status": {
+  "cmdId": "0a8df818-3d3c-4d8d-8626-c5efe98e106f",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Wed Dec  9 23:29:10 2020",
+ "timestampMillis": "1607585350463",
+ "report": {
+  "path": "/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/link/int/krnl_vaddmul.link_xml.rtd",
+  "name": "",
+  "fileType": "JSON",
+  "reportType": "XCLBIN_INFO"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Wed Dec  9 23:29:10 2020",
+ "timestampMillis": "1607585350468",
+ "buildStep": {
+  "cmdId": "f6ea0067-7114-4ce3-98f9-1baf69d17ee1",
+  "name": "cf2sw",
+  "logFile": "",
+  "commandLine": "cf2sw -a /wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/link/int/address_map.xml -sdsl /wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/link/int/sdsl.dat -xclbin /wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/link/int/xclbin_orig.xml -rtd /wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/link/int/krnl_vaddmul.link.rtd -o /wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/link/int/krnl_vaddmul.link.xml",
+  "args": [
+   "-a",
+   "/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/link/int/address_map.xml",
+   "-sdsl",
+   "/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/link/int/sdsl.dat",
+   "-xclbin",
+   "/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/link/int/xclbin_orig.xml",
+   "-rtd",
+   "/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/link/int/krnl_vaddmul.link.rtd",
+   "-o",
+   "/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/link/int/krnl_vaddmul.link.xml"
+  ],
+  "iniFiles": [],
+  "cwd": "/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Wed Dec  9 23:29:10 2020",
+ "timestampMillis": "1607585350469",
+ "status": {
+  "cmdId": "f6ea0067-7114-4ce3-98f9-1baf69d17ee1",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Wed Dec  9 23:29:14 2020",
+ "timestampMillis": "1607585354057",
+ "status": {
+  "cmdId": "f6ea0067-7114-4ce3-98f9-1baf69d17ee1",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Wed Dec  9 23:29:14 2020",
+ "timestampMillis": "1607585354065",
+ "report": {
+  "path": "/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/link/int/systemDiagramModelSlrBaseAddress.json",
+  "name": "",
+  "fileType": "JSON",
+  "reportType": "SYSTEM_DIAGRAM_PLUS"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Wed Dec  9 23:29:14 2020",
+ "timestampMillis": "1607585354066",
+ "buildStep": {
+  "cmdId": "652ee92b-77ba-47af-bc7a-f1ab82f7d66e",
+  "name": "rtdgen",
+  "logFile": "",
+  "commandLine": "writeSystemDiagram",
+  "args": [
+   "/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/link/int/krnl_vaddmul.link.rtd",
+   "/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/link/int/systemDiagramModelSlrBaseAddress.json"
+  ],
+  "iniFiles": [],
+  "cwd": "/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Wed Dec  9 23:29:14 2020",
+ "timestampMillis": "1607585354067",
+ "status": {
+  "cmdId": "652ee92b-77ba-47af-bc7a-f1ab82f7d66e",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Wed Dec  9 23:29:14 2020",
+ "timestampMillis": "1607585354070",
+ "status": {
+  "cmdId": "652ee92b-77ba-47af-bc7a-f1ab82f7d66e",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Wed Dec  9 23:29:14 2020",
+ "timestampMillis": "1607585354071",
+ "status": {
+  "cmdId": "0a8df818-3d3c-4d8d-8626-c5efe98e106f",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Wed Dec  9 23:29:14 2020",
+ "timestampMillis": "1607585354081",
+ "buildStep": {
+  "cmdId": "6c0c0339-401c-42d2-9312-22bc810b7671",
+  "name": "xclbinutil",
+  "logFile": "",
+  "commandLine": "xclbinutil --add-section DEBUG_IP_LAYOUT:JSON:/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/link/int/debug_ip_layout.rtd --add-section BITSTREAM:RAW:/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/link/int/partial.bit --force --target hw --key-value SYS:dfx_enable:true --add-section :JSON:/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/link/int/krnl_vaddmul.link.rtd --append-section :JSON:/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/link/int/appendSection.rtd --add-section CLOCK_FREQ_TOPOLOGY:JSON:/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/link/int/krnl_vaddmul.link_xml.rtd --add-section BUILD_METADATA:JSON:/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/link/int/krnl_vaddmul.link_build.rtd --add-section EMBEDDED_METADATA:RAW:/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/link/int/krnl_vaddmul.link.xml --add-section SYSTEM_METADATA:RAW:/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/link/int/systemDiagramModelSlrBaseAddress.json --key-value SYS:PlatformVBNV:xilinx_u50_gen3x16_xdma_201920_3 --output /wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/./build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/krnl_vaddmul.link.xclbin",
+  "args": [
+   "--add-section",
+   "DEBUG_IP_LAYOUT:JSON:/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/link/int/debug_ip_layout.rtd",
+   "--add-section",
+   "BITSTREAM:RAW:/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/link/int/partial.bit",
+   "--force",
+   "--target",
+   "hw",
+   "--key-value",
+   "SYS:dfx_enable:true",
+   "--add-section",
+   ":JSON:/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/link/int/krnl_vaddmul.link.rtd",
+   "--append-section",
+   ":JSON:/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/link/int/appendSection.rtd",
+   "--add-section",
+   "CLOCK_FREQ_TOPOLOGY:JSON:/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/link/int/krnl_vaddmul.link_xml.rtd",
+   "--add-section",
+   "BUILD_METADATA:JSON:/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/link/int/krnl_vaddmul.link_build.rtd",
+   "--add-section",
+   "EMBEDDED_METADATA:RAW:/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/link/int/krnl_vaddmul.link.xml",
+   "--add-section",
+   "SYSTEM_METADATA:RAW:/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/link/int/systemDiagramModelSlrBaseAddress.json",
+   "--key-value",
+   "SYS:PlatformVBNV:xilinx_u50_gen3x16_xdma_201920_3",
+   "--output",
+   "/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/./build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/krnl_vaddmul.link.xclbin"
+  ],
+  "iniFiles": [],
+  "cwd": "/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Wed Dec  9 23:29:14 2020",
+ "timestampMillis": "1607585354082",
+ "status": {
+  "cmdId": "6c0c0339-401c-42d2-9312-22bc810b7671",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Wed Dec  9 23:29:14 2020",
+ "timestampMillis": "1607585354352",
+ "status": {
+  "cmdId": "6c0c0339-401c-42d2-9312-22bc810b7671",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Wed Dec  9 23:29:14 2020",
+ "timestampMillis": "1607585354358",
+ "buildStep": {
+  "cmdId": "7aff6029-de94-470a-8679-d06112983017",
+  "name": "xclbinutilinfo",
+  "logFile": "",
+  "commandLine": "xclbinutil --quiet --force --info /wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/./build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/krnl_vaddmul.link.xclbin.info --input /wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/./build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/krnl_vaddmul.link.xclbin",
+  "args": [
+   "--quiet",
+   "--force",
+   "--info",
+   "/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/./build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/krnl_vaddmul.link.xclbin.info",
+   "--input",
+   "/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/./build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/krnl_vaddmul.link.xclbin"
+  ],
+  "iniFiles": [],
+  "cwd": "/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Wed Dec  9 23:29:14 2020",
+ "timestampMillis": "1607585354359",
+ "status": {
+  "cmdId": "7aff6029-de94-470a-8679-d06112983017",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Wed Dec  9 23:29:14 2020",
+ "timestampMillis": "1607585354876",
+ "status": {
+  "cmdId": "7aff6029-de94-470a-8679-d06112983017",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Wed Dec  9 23:29:14 2020",
+ "timestampMillis": "1607585354883",
+ "buildStep": {
+  "cmdId": "a52f18dd-8939-4ff2-8d1e-71c8f6b817bf",
+  "name": "generate_sc_driver",
+  "logFile": "",
+  "commandLine": "",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Wed Dec  9 23:29:14 2020",
+ "timestampMillis": "1607585354884",
+ "status": {
+  "cmdId": "a52f18dd-8939-4ff2-8d1e-71c8f6b817bf",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Wed Dec  9 23:29:14 2020",
+ "timestampMillis": "1607585354886",
+ "status": {
+  "cmdId": "a52f18dd-8939-4ff2-8d1e-71c8f6b817bf",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Wed Dec  9 23:29:14 2020",
+ "timestampMillis": "1607585354920",
+ "report": {
+  "path": "/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/reports/link/system_estimate_krnl_vaddmul.link.xtxt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_SYSTEM_ESTIMATE"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Wed Dec  9 23:29:15 2020",
+ "timestampMillis": "1607585355040",
+ "report": {
+  "path": "/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/reports/link/v++_link_krnl_vaddmul.link_guidance.html",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Wed Dec  9 23:29:15 2020",
+ "timestampMillis": "1607585355041",
+ "report": {
+  "path": "/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/v++_link_krnl_vaddmul.link_guidance.pb",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Wed Dec  9 23:29:15 2020",
+ "timestampMillis": "1607585355047",
+ "report": {
+  "path": "/wrk/xsjhdnobkup5/ravic/work/Vitis_Accel_Examples/host/hbm_bandwidth_pseudo_random/build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/logs/optraceViewer.html",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "OPERATION_TRACE"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Wed Dec  9 23:29:15 2020",
+ "timestampMillis": "1607585355050",
+ "status": {
+  "cmdId": "ba0c1ff0-ca99-407e-8edc-001d015ce231",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
